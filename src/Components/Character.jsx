@@ -13,7 +13,7 @@ const character = props => {
     location,
     image
   } = props.characterInfo;
-  console.log(props.characterInfo)
+  
   return (
     <div className="card">
       <div className="image">

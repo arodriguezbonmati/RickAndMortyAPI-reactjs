@@ -4,6 +4,7 @@
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 body{
@@ -80,4 +81,17 @@ body{
     font-size: 40px;
     margin: 40px;
     font-weight: bold;
+}
+
+.section_content {
+    display: flex;
+    justify-content: center;
+}
+
+.section_container {
+    margin: 20px;
+}
+
+.filter_button {
+    margin: 5px;
 }

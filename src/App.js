@@ -47,7 +47,7 @@ class App extends Component {
     
     if(this.state.filters.filterName !== ""){
       filteredResults = filteredResults.filter(elem => {
-        return elem.name.includes(this.state.filters.filterName);
+        return elem.name.toUpperCase().includes(this.state.filters.filterName.toUpperCase());
       })
     }
     

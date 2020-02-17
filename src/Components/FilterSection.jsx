@@ -20,8 +20,8 @@ const FilterSection = props => {
           <div className="filter_content">
             <div className="filter_container"></div>
             <InputName
-                onFilterClick={props.onFilterClick}
-                filterButtonType="name"
+              onFilterClick={props.onFilterClick}
+              filterButtonType="name"
             />
           </div>
         </div>
